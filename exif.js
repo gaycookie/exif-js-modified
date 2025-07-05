@@ -90,6 +90,11 @@
         0xA40B : "DeviceSettingDescription",    //
         0xA40C : "SubjectDistanceRange",    // Distance to subject
 
+        0xA432 : "LensSpecification",       // 4 rational values giving focal and aperture ranges
+        0xA433 : "LensMake",
+        0xA434 : "LensModel",
+        0xA435 : "LensSerialNumber",
+
         // other tags
         0xA005 : "InteroperabilityIFDPointer",
         0xA420 : "ImageUniqueID"            // Identifier assigned uniquely to each image
